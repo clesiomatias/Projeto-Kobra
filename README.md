@@ -70,5 +70,5 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE]() pa
 
 Para dúvidas ou sugestões, entre em contato:
 
-* **E-mail** : [seuemail@example.com]()
-* **GitHub** : [@seunome](https://github.com/seunome)
+* **E-mail** : [clesiofmatias@gmail.com]()
+* **GitHub** : [@clesiomatias](https://github.com/seunome)
