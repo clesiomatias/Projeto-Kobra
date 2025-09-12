@@ -60,6 +60,22 @@ Todas as contribuições são bem-vindas!
 
 ---
 
+
+
+## ✅ Etapas Concluídas
+
+| Etapa                                                        | Status     | Observações                                                  |
+| ------------------------------------------------------------ | ---------- | -------------------------------------------------------------- |
+| Definição do objetivo do projeto                           | Concluída | Estabelecido o foco na adaptação do Python para português.  |
+| Levantamento das funcionalidades essenciais do Python        | Concluída | Identificadas as principais funcionalidades a serem adaptadas. |
+| Pesquisa sobre projetos similares                            | Concluída | Estudado o projeto CompiladorPhyton como referência.          |
+| Criação do repositório no GitHub                          | Concluída | Repositório inicial configurado.                              |
+| Elaboração do README.md                                    | Concluída | Documento inicial com informações do projeto.                |
+| Planejamento das primeiras funcionalidades a serem adaptadas | Concluída | Priorizadas as funcionalidades básicas do Python.             |
+
+> **Nota:** Em breve, publicaremos mais detalhes sobre o andamento do projeto e as próximas etapas a serem implementadas. Fique atento às atualizações!
+>
+
 ## 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE]() para mais detalhes.
