@@ -1,0 +1,52 @@
+# Exemplo completo com vários comandos Python em português
+
+# Função básica
+definir saudacao(nome):
+    retornar "Olá, " + nome + "!"
+
+# Variáveis e tipos
+nome = "Kobra"
+idade = 5
+altura = 1.85
+ativo = Verdadeiro
+
+imprimir("=== Informações ===")
+imprimir("Nome:", nome)
+imprimir("Idade:", idade)
+imprimir("Altura:", altura)
+imprimir("Ativo:", ativo)
+imprimir("Tipo do nome:", tipo(nome))
+
+# Listas e operações
+frutas = ["maçã", "banana", "laranja"]
+numeros = [1, 2, 3, 4, 5]
+
+imprimir("\n=== Listas ===")
+imprimir("Frutas:", frutas)
+imprimir("Tamanho da lista:", tamanho(frutas))
+imprimir("Números:", numeros)
+imprimir("Soma dos números:", soma(numeros))
+imprimir("Máximo:", maximo(numeros))
+imprimir("Mínimo:", minimo(numeros))
+
+# Estruturas de controle
+imprimir("\n=== Estruturas de Controle ===")
+se idade >= 18:
+    imprimir("Maior de idade")
+senao:
+    imprimir("Menor de idade")
+
+# Loop
+imprimir("\n=== Loop ===")
+para i em intervalo(3):
+    imprimir("Contagem:", i)
+
+# Dicionário
+pessoa = {"nome": "Ana", "idade": 30}
+imprimir("\n=== Dicionário ===")
+imprimir("Pessoa:", pessoa)
+
+# Chamada de função
+mensagem = saudacao("Mundo")
+imprimir("\n=== Função ===")
+imprimir(mensagem)

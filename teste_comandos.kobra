@@ -1,0 +1,9 @@
+# Teste individual de comandos
+
+# Teste básico
+numeros = [1, 2, 3, 4, 5]
+imprimir("Lista:", numeros)
+imprimir("Tamanho:", tamanho(numeros))
+imprimir("Soma:", soma(numeros))
+imprimir("Máximo:", maximo(numeros))
+imprimir("Mínimo:", minimo(numeros))

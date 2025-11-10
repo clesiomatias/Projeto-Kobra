@@ -1,0 +1,4 @@
+definir foi(a,b):
+    retornar a + b  
+
+imprimir("Soma de 5 e 3 é:", foi(5, 3))

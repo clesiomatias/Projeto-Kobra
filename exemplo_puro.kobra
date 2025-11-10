@@ -1,0 +1,23 @@
+# Exemplo de uso da função imprimir() - Projeto Kobra
+
+# Teste básico
+imprimir("Olá, mundo!")
+
+# Múltiplos parâmetros
+imprimir("Projeto", "Kobra", "em", "ação!")
+
+# Com variáveis
+nome = "Python"
+linguagem = "Kobra"
+imprimir("Traduzindo", nome, "para", linguagem)
+
+# Com números
+idade = 25
+altura = 1.75
+imprimir("Idade:", idade, "Altura:", altura)
+
+# Concatenação automática
+imprimir("Resultado:", 10 + 5)
+imprimir("Texto", "e", "número:", 42)
+l = ["maçã", "banana", "cereja"]
+imprimir("Lista de frutas:", l)

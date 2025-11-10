@@ -1,0 +1,25 @@
+# Exemplo com comandos básicos expandidos
+
+# Variáveis
+nome = "Kobra"
+numeros = [1, 2, 3, 4, 5]
+
+# Informações básicas
+imprimir("Nome:", nome)
+imprimir("Tipo:", tipo(nome))
+imprimir("Números:", numeros)
+imprimir("Tamanho:", tamanho(numeros))
+imprimir("Soma:", soma(numeros))
+imprimir("Máximo:", maximo(numeros))
+imprimir("Mínimo:", minimo(numeros))
+
+# Condicionais
+idade = 25
+se idade >= 18:
+    imprimir("Maior de idade")
+senao:
+    imprimir("Menor de idade")
+
+# Loop simples
+para i em intervalo(3):
+    imprimir("Número:", i)

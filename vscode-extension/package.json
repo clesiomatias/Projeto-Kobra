@@ -1,0 +1,78 @@
+{
+  "name": "kobra-language",
+  "publisher": "projeto-kobra",
+  "displayName": "Kobra Language Support",
+  "description": "Suporte para linguagem Kobra - Python em Português",
+  "version": "0.5.0",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "kobra",
+        "aliases": [
+          "Kobra",
+          "kobra"
+        ],
+        "extensions": [
+          ".kobra"
+        ],
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./images/logo_kobra.png",
+          "dark": "./images/logo_kobra.png"
+        }
+      }
+    ],
+    "grammars": [
+      {
+        "language": "kobra",
+        "scopeName": "source.kobra",
+        "path": "./syntaxes/kobra.tmLanguage.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "kobra.run",
+        "title": "Executar Arquivo Kobra",
+        "icon": "$(play)"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "kobra.run",
+        "key": "ctrl+f5",
+        "when": "editorTextFocus && resourceExtname == .kobra"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "when": "resourceExtname == .kobra",
+          "command": "kobra.run",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "activationEvents": [
+    "onLanguage:kobra"
+  ],
+  "main": "./src/extension.js",
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.2",
+    "@types/vscode": "^1.104.0",
+    "typescript": "^4.9.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

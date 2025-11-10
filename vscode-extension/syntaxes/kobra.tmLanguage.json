@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Kobra",
+  "patterns": [
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#strings"
+    },
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#numbers"
+    }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [{
+        "name": "keyword.control.kobra",
+        "match": "\\b(definir|retornar|se|senao|senaose|para|enquanto|em|nao|e|ou|imprimir|ler|inteiro|flutuante|texto|booleano)\\b"
+      }]
+    },
+    "strings": {
+      "name": "string.quoted.double.kobra",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.kobra",
+          "match": "\\\\."
+        }
+      ]
+    },
+    "comments": {
+      "patterns": [{
+        "name": "comment.line.number-sign.kobra",
+        "match": "#.*$"
+      }]
+    },
+    "numbers": {
+      "patterns": [{
+        "name": "constant.numeric.kobra",
+        "match": "\\b\\d+(\\.\\d+)?\\b"
+      }]
+    }
+  },
+  "scopeName": "source.kobra"
+}

@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# Arquivo Kobra - Execute com: ./exemplo_imprimir.kobra
+
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from interpretador import InterpretadorKobra
+
+codigo_kobra = '''
+# Exemplo de uso da função imprimir() - Projeto Kobra
+
+# Teste básico
+imprimir("Olá, mundo!")
+
+# Múltiplos parâmetros
+imprimir("Projeto", "Kobra", "em", "ação!")
+
+# Com variáveis
+nome = "Python"
+linguagem = "Kobra"
+imprimir("Traduzindo", nome, "para", linguagem)
+
+# Com números
+idade = 25
+altura = 1.75
+imprimir("Idade:", idade, "Altura:", altura)
+
+# Concatenação automática
+imprimir("Resultado:", 10 + 5)
+imprimir("Texto", "e", "número:", 42)
+'''
+
+if __name__ == "__main__":
+    interpretador = InterpretadorKobra()
+    interpretador.executar(codigo_kobra)

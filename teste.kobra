@@ -1,0 +1,4 @@
+let = 1
+a = "amor"
+
+imprimir(let, a)

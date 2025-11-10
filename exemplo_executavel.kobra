@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+# Código Kobra inline
+codigo_kobra = '''
+imprimir("Olá do arquivo executável!")
+imprimir("Este arquivo roda diretamente no terminal")
+nome = "Kobra"
+imprimir("Linguagem:", nome)
+'''
+
+# Executar código Kobra
+if __name__ == "__main__":
+    from interpretador import InterpretadorKobra
+    interpretador = InterpretadorKobra()
+    interpretador.executar(codigo_kobra)
